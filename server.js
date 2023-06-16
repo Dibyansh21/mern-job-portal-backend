@@ -41,7 +41,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(cors({
-  origin: ["http://localhost:4444"]
+  origin: ["http://localhost:4444", "https://mern-job-portal.onrender.com"],
 }));
 app.use(express.json());
 app.use(passportConfig.initialize());
