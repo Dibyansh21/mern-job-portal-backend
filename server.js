@@ -9,7 +9,7 @@ require("dotenv").config();
 
 // MongoDB connection
 mongoose
-  .connect(process.env.MONGODB_URI || 'mongodb+srv://user1:user1@cluster0.n17gvsr.mongodb.net/jobportal', {
+  .connect(process.env.MONGODB_URI || 'mongodb+srv://user1:user1@cluster0.n17gvsr.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
